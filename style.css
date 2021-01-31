@@ -85,3 +85,12 @@ footer .links>a {
     color: rgb(36, 34, 33, 0.5);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+article:nth-child(even) {
+    background-color: rgb(254, 255, 173);
+}
+
+article:nth-child(-n+2) h2::after {
+    content: "  NEW";
+    color: rgb(255, 0, 0);
+}
